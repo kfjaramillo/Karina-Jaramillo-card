@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karina Jaramillo</title>
+    <title>Presentación HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .slide {
+            margin-bottom: 40px;
+        }
+        .slide h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .slide p {
+            font-size: 1.2em;
+        }
+        .slide img {
+            max-width: 100%;
+            height: auto;
+        }
+        .navigation {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .navigation a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.2em;
+        }
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    Karina Jaramillo
+    <div class="container">
+        <div class="slide" id="slide1">
+            <h2>Título de la Presentación</h2>
+            <p>Bienvenidos a esta presentación. En esta diapositiva, se introduce el tema general.</p>
+        </div>
+        <div class="slide" id="slide2">
+            <h2>Sección 1: Introducción</h2>
+            <p>Aquí se proporciona una introducción al tema, incluyendo el contexto y los objetivos.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Imagen de ejemplo">
+        </div>
+        <div class="slide" id="slide3">
+            <h2>Sección 2: Detalles</h2>
+            <p>En esta sección, se presentan detalles más específicos del tema, incluyendo datos y ejemplos.</p>
+        </div>
+        <div class="slide" id="slide4">
+            <h2>Conclusión</h2>
+            <p>Finalmente, se presenta la conclusión, resumiendo los puntos clave y destacando las ideas principales.</p>
+        </div>
+        <div class="navigation">
+            <a href="#slide1">1</a>
+            <a href="#slide2">2</a>
+            <a href="#slide3">3</a>
+            <a href="#slide4">4</a>
+        </div>
+    </div>
 </body>
 </html>
